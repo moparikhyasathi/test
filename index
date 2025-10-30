@@ -166,7 +166,7 @@ function toggleAnswers(){
 
 // Share result button
 function shareResult(){
-  const shareLink = "https://y.com"; // 🔗 change this to your quiz URL
+  const shareLink = "https://moparikhyasathibseodisha.blogspot.com"; // 🔗 change this to your quiz URL
   const r = window.examResult;
   if(!r){alert("ପରୀକ୍ଷା ପ୍ରଥମେ ଶେଷ କରନ୍ତୁ!");return;}
   const text = `📘 ମୋ ପରୀକ୍ଷା ଫଳାଫଳ:\nସଠିକ୍: ${toOdiaNum(r.correct)} | ଭୁଲ: ${toOdiaNum(r.wrong)} | ମୋଟ: ${r.percent}%\nସମୟ: ${r.time}\n\nଆପଣମଧ୍ୟ ଏହି ପରୀକ୍ଷା ଦିଅନ୍ତୁ 👉 ${shareLink}`;
